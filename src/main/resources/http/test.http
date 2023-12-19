@@ -1,0 +1,49 @@
+###
+GET http://localhost:8080/api/food/entity-to-dto/1
+
+
+###
+POST http://localhost:8080/api/recipe/adds/6
+Content-Type: application/json
+[
+    {
+        "mId": 1,
+        "quantity": 200,
+        "unitCalc": "gram"
+    },
+    {
+        "mId": 8,
+        "quantity": 80,
+        "unitCalc": "gram"
+    },
+    {
+        "mId": 5,
+        "quantity": 40,
+        "unitCalc": "gram"
+    },
+    {
+        "mId": 6,
+        "quantity": 20,
+        "unitCalc": "gram"
+    },
+    {
+        "mId": 10,
+        "quantity": 60,
+        "unitCalc": "gram"
+    },
+    {
+        "mId": 4,
+        "quantity": 40,
+        "unitCalc": "ml"
+    },
+    {
+        "mId": 3,
+        "quantity": 40,
+        "unitCalc": "ml"
+    },
+    {
+        "mId": 26,
+        "quantity": 5,
+        "unitCalc": "ml"
+    }
+]
